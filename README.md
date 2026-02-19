@@ -1,2 +1,12 @@
 # spelunky-core
-A Pygame-based 2D platformer project focused on building core systems including tile maps, physics, collision, and game state management.
+
+A Spelunky-inspired 2D tile-based platformer built in Pygame, focusing on core mechanics such as player physics, tile-based collision, and level progression.
+
+## Goals
+- Tile-based world rendering  
+- Player movement, physics, and collision  
+- Death, restart, and level progression  
+- Expandable foundation for procedural generation and enemy AI  
+
+## Status
+Early development (v0.1)
