@@ -9,4 +9,4 @@ A Spelunky-inspired 2D tile-based platformer built in Pygame, focusing on core m
 - Expandable foundation for procedural generation and enemy AI  
 
 ## Status
-Early development (v0.1)
+Early development (v0.2 v0.2: Player movement and tile collision)
