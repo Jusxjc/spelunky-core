@@ -24,7 +24,7 @@ class tile_map:
                 pygame.draw.rect(screen, color, rect)
 
     def is_solid(self, tile_x, tile_y):
-        #Return True if the tile is solid, False if air.
+        # Return True if the tile is solid, False if air.
         tile = self.map_array[tile_y][tile_x]
         if tile == 0:  # air
             return False

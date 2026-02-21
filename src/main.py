@@ -15,12 +15,15 @@ pygame.init()
 clock = pygame.time.Clock()
 delta_time = 0.1
 
-# Create player
-player = Player(256, 256, tiles)
-
 # Create window
 screen = pygame.display.set_mode((screen_x, screen_y))
 
+# Create player
+player = Player(256, 256, tiles)
+
+
+animation_timer=0
+frame_duration=0
 running = True
 while running:
     # Handle events
@@ -33,7 +36,7 @@ while running:
     delta_time = max(0.001, min(0.1, delta_time))
 
     # Update game logic
-    player.update(pygame.key.get_pressed())
+    player.update(pygame.key.get_pressed(),delta_time)
 
     # Draw tilemap and player
     tiles.draw_tilemap(screen)
